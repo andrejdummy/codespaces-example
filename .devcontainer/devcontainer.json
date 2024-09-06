@@ -1,0 +1,17 @@
+{
+    "name": "solana-auditors-bootcamp-devcontainer",
+    "image": "ackeexyz/solana-auditors-bootcamp:v1",
+    "customizations": {
+        "vscode": {
+            // Set *default* container specific settings.json values on container create.
+            "settings": {},
+            // Add the IDs of extensions you want installed when the container is created.
+            "extensions": [
+                "rust-lang.rust-analyzer",
+                "tamasfe.even-better-toml",
+                "l-igh-t.vscode-theme-seti-folder",
+                "akamud.vscode-theme-onedark"
+            ]
+        }
+    }
+}
